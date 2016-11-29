@@ -6,7 +6,7 @@
 var moment          = require('moment-timezone'),
     date,
     timezone;
-
+moment.locale('zh-CN')
 date = function (date, options) {
     if (!options && date.hasOwnProperty('hash')) {
         options = date;
