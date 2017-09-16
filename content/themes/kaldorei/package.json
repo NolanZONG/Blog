@@ -1,11 +1,12 @@
 {
-    "name": "kaldorei",
+    "name": "kaldoreifix",
     "description": "A Simple And Elegant Ghost Theme Derive From Default Theme Casper",
     "homepage": "https://github.com/xiaoluoboding/ghost-theme-kaldorei",
     "version": "0.7.5",
     "author": {
         "name": "xiaoluoboding",
-        "url": "https://github.com/xiaoluoboding"
+        "url": "https://github.com/xiaoluoboding",
+        "email": "zongnan1989@gmail.com"
     },
     "repository": {
         "type": "git",
@@ -23,6 +24,9 @@
     ],
     "engines": {
         "node": ">= 4"
+    },
+    "config": {
+       "posts_per_page": 10
     },
     "license": "MIT"
 }
